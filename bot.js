@@ -31,6 +31,18 @@ client.on('message', message =>{
  else if(command === 'pong'){
         client.commands.get('pong').execute(message, args);
  }
+ else if(command === 'shut up'){
+        client.commands.get('shut').execute(message, args);
+ }
+ else if(command === 'hi'){
+        client.commands.get('hi').execute(message, args);
+ }
+ else if(command === 'hello'){
+        client.commands.get('hello').execute(message, args);
+ }
+ else if(command === 'help'){
+        client.commands.get('help').execute(message, args);
+ }
 });
  
 client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
