@@ -28,6 +28,9 @@ client.on('message', message =>{
     if(command === 'ping'){
         client.commands.get('ping').execute(message, args);
     } 
+ else if(command === 'ping'){
+        client.commands.get('ping').execute(message, args);
+ }
 });
  
 client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
