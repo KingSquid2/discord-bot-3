@@ -28,8 +28,8 @@ client.on('message', message =>{
     if(command === 'ping'){
         client.commands.get('ping').execute(message, args);
     } 
- else if(command === 'ping'){
-        client.commands.get('ping').execute(message, args);
+ else if(command === 'pong'){
+        client.commands.get('pong').execute(message, args);
  }
 });
  
