@@ -16,7 +16,7 @@ for(const file of commandFiles){
  
 client.once('ready', () => {
     console.log('Online!');
- bot.user.setActivity(`for ${prefix}help`, {"type": "WATCHING"})
+ bot.user.setActivity(`for (prefix)help`, {"type": "WATCHING"})
 });
  
 client.on('message', message =>{
