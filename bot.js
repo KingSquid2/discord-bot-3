@@ -16,7 +16,7 @@ for(const file of commandFiles){
  
 client.once('ready', () => {
     console.log('Online!');
- client.user.setActivity("WATCHING: for ;help")
+ client.user.setActivity('WATCHING for ;help')
 });
  
 client.on('message', message =>{
